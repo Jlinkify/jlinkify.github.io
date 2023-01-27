@@ -7,7 +7,7 @@ body {
   overflow: hidden;
 }
 
-p {
+h1 {
   font-family: "Space Mono", monospace;
   font-size: clamp(3rem, 10vw, 10rem);
   color: white;
@@ -15,7 +15,7 @@ p {
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
 }
 
-p:hover {
+h1:hover {
   background-color: white;
   color: black;
 }
