@@ -43,7 +43,7 @@ h1
    font-style: normal;
    text-decoration: none;
    color: #FFFFFF;
-   background-color: #000000;
+   background-color: transparent;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;
    display: inline;
@@ -56,7 +56,7 @@ h6.Text
    font-style: normal;
    text-decoration: none;
    color: #FFFFFF;
-   background-color: #000000;
+   background-color: transparent;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;
    display: inline;
