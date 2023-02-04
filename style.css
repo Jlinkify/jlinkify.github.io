@@ -16,7 +16,7 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   color: white;
   display: block; 
-  font-family: 'Caveat', cursive;
+  font-family: "Space Mono", monospace;
   font-size: clamp(2em, 8vmin, 7em);
   padding: clamp(0.25em, 1vmin, 1em) clamp(1em, 4vmin, 4em);
   position: relative;
@@ -49,6 +49,14 @@ body {
 
 .link:nth-child(3) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+h3 {
+  font-family: "Space Mono", monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
 }
 
 
