@@ -16,7 +16,8 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   color: white;
   display: block; 
-  font-family: "Space Mono", monospace;
+  font-family: 'Permanent Marker', cursive;
+  font-size: clamp(2em, 8vmin, 7em);
   padding: clamp(0.25em, 1vmin, 1em) clamp(1em, 4vmin, 4em);
   position: relative;
   text-decoration: none;
@@ -49,7 +50,6 @@ body {
 .link:nth-child(3) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-
 
 
 
