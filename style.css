@@ -28,6 +28,7 @@ body {
 }
 
 .cursor::after {
+  z-index: 9999;
     content: "";
     width: 20px;
     height: 20px;
@@ -85,11 +86,12 @@ body {
 }
 
 #cards:hover > .card::after {
+  z-index: 1;
   opacity: 1;
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.1);
+  kground-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   cursor: pointer;
   display: flex;
@@ -100,11 +102,13 @@ body {
 }
 
 .card:hover::before {
+  z-index: 1;
   opacity: 1;
 }
 
 .card::before,
 .card::after {
+  z-index: 1;
   border-radius: inherit;
   content: "";
   height: 100%;
@@ -125,7 +129,8 @@ body {
   z-index: 3;
 }
 
-.card::after {  
+.card::after { 
+  
   background: radial-gradient(
     600px circle at var(--mouse-x) var(--mouse-y), 
     rgba(255, 255, 255, 0.4),
